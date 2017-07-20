@@ -6,7 +6,7 @@ using System.Text;
  * name: mehul khosla
  * date:july 20, 2017
  * description: this is the super human class that extends the human abstracts class
- * version:0.2 - addedd _initialize method
+ * version:0.3 - addedd  AddPower  method
  */
 namespace comp123_S2017_lesson9b
 {
@@ -46,5 +46,15 @@ namespace comp123_S2017_lesson9b
         }
 
         //public methods
+        /// <summary>
+        /// this method add power to the power list.
+        /// it take swo parametere- name, string
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="rank"></param>
+        public void AddPower(string name, int rank)
+        {
+            this.powers.Add(new Power(name, rank));
+        }
     }
 }
