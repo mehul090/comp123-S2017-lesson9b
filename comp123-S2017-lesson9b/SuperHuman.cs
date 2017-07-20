@@ -19,7 +19,10 @@ namespace comp123_S2017_lesson9b
         private List<Power> _powers;
 
         // public properties
-
+         public List<Power> powers
+        {
+            get { return this._powers; }
+        }
         //constructors
 
             /// <summary>
