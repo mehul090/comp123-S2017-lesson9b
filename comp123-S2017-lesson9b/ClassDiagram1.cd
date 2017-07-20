@@ -8,10 +8,17 @@
     </TypeIdentifier>
   </Class>
   <Class Name="comp123_S2017_lesson9b.SuperHuman">
-    <Position X="3.75" Y="1.25" Width="1.5" />
+    <Position X="3.25" Y="1.25" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>SuperHuman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="comp123_S2017_lesson9b.Power">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Power.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
