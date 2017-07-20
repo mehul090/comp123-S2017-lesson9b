@@ -18,5 +18,7 @@ namespace comp123_S2017_lesson9b
         //public properties
         public string Nmae { get; set; }
         public int Rank { get; set; }
+
+
     }
 }
