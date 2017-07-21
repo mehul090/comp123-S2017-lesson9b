@@ -22,7 +22,7 @@ namespace comp123_S2017_lesson9b
             superHero.AddPower("invisibility", 30);
 
             Console.WriteLine(superHero.ToString());
-            
+            Console.WriteLine("Karma: " + superHero.Karma);
         }
     }
 }
