@@ -6,7 +6,7 @@ using System.Text;
  * name: mehul khosla
  * date:july 20, 2017
  * description: this is the super human class that extends the human abstracts class
- * version:0.4 - addedd Overridden method Tostring
+ * version:0.5 - addedd stud method display skills to conform to human abstract superclass
  */
 namespace comp123_S2017_lesson9b
 {
@@ -66,6 +66,8 @@ namespace comp123_S2017_lesson9b
                 Console.WriteLine("power: " + power.Name + "Rank : " + power.Rank );
             }
         }
+
+        // public overridden method
         /// <summary>
         /// overridden the build in ToString method
         /// </summary>
@@ -87,5 +89,14 @@ namespace comp123_S2017_lesson9b
             return outputstring;
             
         }
+        /// <summary>
+        /// this iw the display skills method
+        /// need to be implemented....
+        /// </summary>
+        public override void DisplaySkills()
+        {
+            Console.WriteLine("not implemented");
+        }
+
     }
 }
