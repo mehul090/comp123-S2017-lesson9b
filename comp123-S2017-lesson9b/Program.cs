@@ -18,9 +18,12 @@ namespace comp123_S2017_lesson9b
         static void Main(string[] args)
         {
             SuperHuman superHuman = new SuperHuman("Super Dude");
-            superHuman.AddPower("Spider climbing", 50);
-            superHuman.AddPower("webcasting", 40);
-            superHuman.DisplayPowers();
+            superHuman.AddPower("teleportation", 50);
+            superHuman.AddPower("phasing", 40);
+            superHuman.AddPower("invisibility", 30);
+
+            Console.WriteLine(superHuman.ToString());
+            
         }
     }
 }

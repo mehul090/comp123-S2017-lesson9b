@@ -75,15 +75,15 @@ namespace comp123_S2017_lesson9b
         {
             
             string outputstring = "";
-            outputstring += "**********************************************";
+            outputstring += "**********************************************\n";
             outputstring += "SuperHumsn Name: " + this.Name + " \n";
             
-            outputstring += "**********************************************";
+            outputstring += "**********************************************\n";
             foreach(Power power in this.powers)
             {
                 outputstring+="Power: " + power.Name + "Rank: " + power.Rank + "\n";
             }
-            outputstring += "**********************************************";
+            outputstring += "**********************************************\n";
             return outputstring;
             
         }
