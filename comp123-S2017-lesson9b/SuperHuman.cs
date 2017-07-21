@@ -6,7 +6,7 @@ using System.Text;
  * name: mehul khosla
  * date:july 20, 2017
  * description: this is the super human class that extends the human abstracts class
- * version:0.4 - addedd  display power  method
+ * version:0.4 - addedd Overridden method Tostring
  */
 namespace comp123_S2017_lesson9b
 {
@@ -65,6 +65,27 @@ namespace comp123_S2017_lesson9b
             {
                 Console.WriteLine("power: " + power.Name + "Rank : " + power.Rank );
             }
+        }
+        /// <summary>
+        /// overridden the build in ToString method
+        /// </summary>
+        /// <returns>
+        /// string</returns>
+        public override string ToString()
+        {
+            
+            string outputstring = "";
+            outputstring += "**********************************************";
+            outputstring += "SuperHumsn Name: " + this.Name + " \n";
+            
+            outputstring += "**********************************************";
+            foreach(Power power in this.powers)
+            {
+                outputstring+="Power: " + power.Name + "Rank: " + power.Rank + "\n";
+            }
+            outputstring += "**********************************************";
+            return outputstring;
+            
         }
     }
 }
