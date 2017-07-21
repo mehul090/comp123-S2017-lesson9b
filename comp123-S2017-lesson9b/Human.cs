@@ -6,7 +6,7 @@ using System.Text;
  * name: mehul khosla
  * date:july 20, 2017
  * description: this is the abstract human class
- * version:0.1 - created the abstract human class
+ * version:0.2 - created public abstract meethod
  */
 namespace comp123_S2017_lesson9b
 {
@@ -40,9 +40,11 @@ namespace comp123_S2017_lesson9b
             this.Name = name;
         }
 
-        //private methods
+        // public absract metods
+        public abstract void DisplaySkills();
 
-        //public methods
+
+       
     }
 }
 
