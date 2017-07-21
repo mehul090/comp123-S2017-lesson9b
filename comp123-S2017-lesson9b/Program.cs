@@ -7,8 +7,7 @@ using System.Threading.Tasks;
  * name: mehul khosla
  * date:july 20, 2017
  * description: demo lesson 9
- * version:0.4 - added an other power to Super human object
- * also displayed powers in power list
+ * version:0.4 - implemented super hero class
  */
  
 namespace comp123_S2017_lesson9b
@@ -17,12 +16,12 @@ namespace comp123_S2017_lesson9b
     {
         static void Main(string[] args)
         {
-            SuperHuman superHuman = new SuperHuman("Super Dude");
-            superHuman.AddPower("teleportation", 50);
-            superHuman.AddPower("phasing", 40);
-            superHuman.AddPower("invisibility", 30);
+            SuperHero superHero = new SuperHero("Super Dude",20);
+            superHero.AddPower("teleportation", 50);
+            superHero.AddPower("phasing", 40);
+            superHero.AddPower("invisibility", 30);
 
-            Console.WriteLine(superHuman.ToString());
+            Console.WriteLine(superHero.ToString());
             
         }
     }

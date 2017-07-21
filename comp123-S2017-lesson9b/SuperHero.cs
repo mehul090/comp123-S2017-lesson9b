@@ -7,7 +7,7 @@ using System.Text;
  * date:july 20, 2017
  * description: this is the super hero class which inherits from the SuperHuman class
  * and implements the IHasKarma interface
- * version 0.1 - created the SuperHero class
+ * version 0.2 - modified constructor to take Karma vlue
  */
 namespace comp123_S2017_lesson9b
 {
@@ -32,10 +32,10 @@ namespace comp123_S2017_lesson9b
         /// </summary>
         /// <param name="name"></param>
         //constructors
-        public SuperHero (string name)
+        public SuperHero (string name , int Karma)
             :base(name)
         {
-
+            this.Karma = Karma;
         }
 
 
